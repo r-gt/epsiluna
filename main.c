@@ -23,11 +23,6 @@ int main(int argc, char *argv[]){
 
 	bind_lua();
 
-
-
-
-	bind_lua();
-
 	if(!argv[1])
 		luaL_dostring(L, nogame_demo);
 
